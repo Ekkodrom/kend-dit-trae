@@ -1,0 +1,128 @@
+:root {
+  --bg: #f4f5ef;
+  --surface: #ffffff;
+  --text: #1c241d;
+  --muted: #5b675c;
+  --line: #dfe3d6;
+  --accent: #2f5d34;
+  --accent-soft: #e2ecdf;
+  --ret: #1f7a3a;
+  --ret-soft: #dcf2e2;
+  --forkert: #b3261e;
+  --forkert-soft: #fbe1df;
+  --radius: 14px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121612;
+    --surface: #1b211b;
+    --text: #e7ece6;
+    --muted: #9aa79b;
+    --line: #2c352c;
+    --accent: #8cc792;
+    --accent-soft: #223024;
+    --ret: #7bd394;
+    --ret-soft: #1b3324;
+    --forkert: #f2948c;
+    --forkert-soft: #3a1f1d;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  padding-bottom: 72px; /* plads til tælleren */
+}
+
+a { color: var(--accent); }
+.wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+main[hidden] { display: none; }
+
+/* Header og faner */
+.top { background: #2f5d34; color: #fff; padding: 18px 0 16px; }
+@media (prefers-color-scheme: dark) { .top { background: #1c3a20; } }
+.top h1 { margin: 0; font-size: 1.6rem; }
+.tagline { margin: 2px 0 0; opacity: .85; font-size: .95rem; }
+.faner { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.faner a {
+  color: #fff; text-decoration: none; font-weight: 600; font-size: .95rem;
+  padding: 7px 14px; border-radius: 999px; background: rgb(255 255 255 / .12);
+}
+.faner a[aria-current="page"] { background: #fff; color: #2f5d34; }
+
+/* Indstillinger */
+.indstillinger { display: grid; gap: 8px; margin: 14px 0 10px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chips button {
+  font: inherit; font-size: .9rem; padding: 6px 14px; border-radius: 999px; cursor: pointer;
+  border: 1px solid var(--line); background: var(--surface); color: var(--text);
+}
+.chips button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--surface); font-weight: 600; }
+
+/* Quiz */
+.quiz { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 14px; }
+.spoergsmaal { font-size: 1.15rem; font-weight: 700; margin: 0 0 10px; }
+.billede-ramme { position: relative; border-radius: 10px; overflow: hidden; background: var(--line); aspect-ratio: 4 / 3; }
+.billede-ramme img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.feedback {
+  position: absolute; left: 10px; right: 10px; bottom: 10px; padding: 10px 12px; border-radius: 10px;
+  font-weight: 700; background: rgb(0 0 0 / .72); color: #fff;
+}
+.feedback[hidden] { display: none; }
+.kredit { font-size: .75rem; color: var(--muted); margin: 6px 0 12px; min-height: 1em; }
+.kredit a { color: var(--muted); }
+
+.svar { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.svar button {
+  font: inherit; font-weight: 600; padding: 14px 10px; border-radius: 12px; cursor: pointer; min-height: 56px;
+  border: 2px solid var(--line); background: var(--bg); color: var(--text); text-align: center; line-height: 1.2;
+}
+.svar button:hover:not(:disabled) { border-color: var(--accent); }
+.svar button:disabled { cursor: default; }
+.svar button.ret { background: var(--ret-soft); border-color: var(--ret); color: var(--ret); }
+.svar button.forkert { background: var(--forkert-soft); border-color: var(--forkert); color: var(--forkert); }
+.svar button small { display: block; font-weight: 400; font-style: italic; font-size: .78rem; opacity: .75; margin-top: 2px; }
+
+.naeste {
+  width: 100%; margin-top: 10px; font: inherit; font-weight: 700; padding: 12px; border-radius: 12px; cursor: pointer;
+  border: 0; background: var(--accent); color: var(--surface);
+}
+.naeste[hidden] { display: none; }
+
+/* Tæller i bunden */
+.taeller {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  display: flex; justify-content: center; align-items: center; gap: 14px;
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+  background: var(--surface); border-top: 1px solid var(--line); font-weight: 700; font-size: 1.05rem;
+}
+.taeller button { font: inherit; font-size: .85rem; font-weight: 600; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--text); cursor: pointer; }
+
+/* Træerne */
+.intro { color: var(--muted); }
+.art { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px; margin: 12px 0; }
+.art h3 { margin: 0; font-size: 1.1rem; }
+.art .latin { font-style: italic; color: var(--muted); font-size: .9rem; margin-bottom: 8px; }
+.art .tag { font-size: .72rem; font-weight: 600; padding: 2px 8px; border-radius: 999px; background: var(--accent-soft); color: var(--accent); margin-left: 6px; vertical-align: 2px; }
+.galleri { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 6px; }
+.galleri figure { margin: 0; }
+.galleri img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: 8px; display: block; cursor: zoom-in; background: var(--line); }
+.galleri figcaption { font-size: .75rem; color: var(--muted); text-align: center; margin-top: 2px; }
+
+/* Om */
+.om h2 { margin: 20px 0 10px; }
+.om p { line-height: 1.6; }
+
+/* Stort billede */
+dialog { border: 0; padding: 0; border-radius: var(--radius); width: min(900px, calc(100% - 24px)); background: var(--surface); color: var(--text); }
+dialog::backdrop { background: rgb(0 0 0 / .6); }
+dialog img { width: 100%; display: block; max-height: 75vh; object-fit: contain; background: #000; }
+dialog .kredit { padding: 0 12px 10px; }
+.luk { position: absolute; top: 8px; right: 8px; width: 36px; height: 36px; border-radius: 50%; border: 0; background: rgb(0 0 0 / .55); color: #fff; cursor: pointer; }

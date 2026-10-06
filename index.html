@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Bliv bedre til at kende de danske træer – billedquiz med bark, blade og frugter.">
+  <meta name="theme-color" content="#2f5d34">
+  <title>Kend dit træ</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌳</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <h1>Kend dit træ</h1>
+      <p class="tagline">Bliv bedre til at kende de danske træer</p>
+      <nav class="faner" aria-label="Sider">
+        <a href="#" id="fane-quiz">Quiz</a>
+        <a href="#traeer" id="fane-traeer">Træerne</a>
+        <a href="#om" id="fane-om">Om</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="side-quiz">
+    <section class="indstillinger" aria-label="Indstillinger">
+      <div class="chips" id="kategori" role="group" aria-label="Kategori">
+        <button type="button" data-kategori="let">De nemme</button>
+        <button type="button" data-kategori="svaer">De svære</button>
+        <button type="button" data-kategori="alle">Dem alle</button>
+      </div>
+      <div class="chips" id="dele" role="group" aria-label="Del af træet">
+        <button type="button" data-del="alle">Alt</button>
+        <button type="button" data-del="trae">Hele træet</button>
+        <button type="button" data-del="bark">Bark</button>
+        <button type="button" data-del="blade">Blade</button>
+        <button type="button" data-del="frugt">Frugt</button>
+      </div>
+    </section>
+
+    <section class="quiz" aria-live="polite">
+      <p class="spoergsmaal" id="spoergsmaal">Indlæser …</p>
+      <div class="billede-ramme">
+        <img id="billede" alt="">
+        <div class="feedback" id="feedback" hidden></div>
+      </div>
+      <p class="kredit" id="kredit"></p>
+      <div class="svar" id="svar"></div>
+      <button type="button" class="naeste" id="naeste" hidden>Næste →</button>
+    </section>
+  </main>
+
+  <main class="wrap" id="side-traeer" hidden>
+    <h2>Træerne</h2>
+    <p class="intro">Kig træerne igennem, før du tager quizzen. Tryk på et billede for at se det større.</p>
+    <div class="chips" id="liste-filter" role="group" aria-label="Vis">
+      <button type="button" data-kategori="alle">Alle</button>
+      <button type="button" data-kategori="let">De nemme</button>
+      <button type="button" data-kategori="svaer">De svære</button>
+    </div>
+    <div id="liste"></div>
+  </main>
+
+  <main class="wrap om" id="side-om" hidden>
+    <h2>Om Kend dit træ</h2>
+    <p>Kend dit træ er en billedquiz, der hjælper dig med at lære de træer, der vokser i Danmark, at kende – på hele træet, barken, bladene og frugterne.</p>
+    <p>Quizzen indeholder Danmarks hjemmehørende træer samt de almindelige skov-, park- og læhegnstræer. "De nemme" er de træer, de fleste møder på en almindelig tur i skoven; "De svære" er dem, der ligner hinanden mere eller er sjældnere.</p>
+    <p>Billederne er hentet automatisk fra <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> under frie licenser og er gennemset, men der kan være fejl. Fotograf og licens står ved hvert billede.</p>
+  </main>
+
+  <div class="taeller" id="taeller" role="status">
+    <span id="score">0 ud af 0 rigtige</span>
+    <button type="button" id="nulstil">Nulstil</button>
+  </div>
+
+  <dialog id="stort" aria-label="Stort billede">
+    <form method="dialog"><button class="luk" aria-label="Luk">✕</button></form>
+    <img id="stort-billede" alt="">
+    <p class="kredit" id="stort-kredit"></p>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
