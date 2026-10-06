@@ -5,7 +5,7 @@
 - [x] Del "Hele træet"
 - [x] Billeder af bark, blade og frugt fra Wikimedia Commons (`scripts/hent-billeder.mjs`)
 - [x] Manuel kvalitetskontrol af billederne (`data/udeluk.json`)
-- [ ] Find bedre billeder til arter med få/ingen billeder af en del
+- [ ] Find billeder til de dele, der mangler: Hvid pil (blade), Selje-pil (blade), Almindelig ædelgran, Surkirsebær og Hvidgran (hele træet)
 - [ ] Overvej flere dele: blomster, knopper (vinter)
 
 ## App

@@ -1200,6 +1200,28 @@
       "bredde": 2996,
       "hoejde": 2996
      }
+    ],
+    "trae": [
+     {
+      "titel": "File:A tree in the thick of it - geograph.org.uk - 7371822.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/A_tree_in_the_thick_of_it_-_geograph.org.uk_-_7371822.jpg/960px-A_tree_in_the_thick_of_it_-_geograph.org.uk_-_7371822.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:A_tree_in_the_thick_of_it_-_geograph.org.uk_-_7371822.jpg",
+      "licens": "CC BY-SA 2.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+      "fotograf": "Neil Owen",
+      "bredde": 3000,
+      "hoejde": 4000
+     },
+     {
+      "titel": "File:Bergpark Wilhelmshöhe - Baum 3 2021-02-14.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Bergpark_Wilhelmsh%C3%B6he_-_Baum_3_2021-02-14.JPG/960px-Bergpark_Wilhelmsh%C3%B6he_-_Baum_3_2021-02-14.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Bergpark_Wilhelmsh%C3%B6he_-_Baum_3_2021-02-14.JPG",
+      "licens": "CC BY-SA 3.0 de",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+      "fotograf": "Baummapper",
+      "bredde": 2736,
+      "hoejde": 3648
+     }
     ]
    }
   },
@@ -1775,6 +1797,18 @@
       "fotograf": "Rasbak",
       "bredde": 4912,
       "hoejde": 7360
+     }
+    ],
+    "trae": [
+     {
+      "titel": "File:Hornbeam tree at Waterloo Park, Norwich.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Hornbeam_tree_at_Waterloo_Park%2C_Norwich.jpg/960px-Hornbeam_tree_at_Waterloo_Park%2C_Norwich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Hornbeam_tree_at_Waterloo_Park,_Norwich.jpg",
+      "licens": "CC0",
+      "licensUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fotograf": "Amitchell125",
+      "bredde": 2048,
+      "hoejde": 1536
      }
     ]
    }
@@ -2713,6 +2747,28 @@
       "bredde": 4000,
       "hoejde": 2248
      }
+    ],
+    "trae": [
+     {
+      "titel": "File:Grove of bare trees in spring at Myrstigen 3.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Grove_of_bare_trees_in_spring_at_Myrstigen_3.jpg/960px-Grove_of_bare_trees_in_spring_at_Myrstigen_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Grove_of_bare_trees_in_spring_at_Myrstigen_3.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "W.carter",
+      "bredde": 3633,
+      "hoejde": 5450
+     },
+     {
+      "titel": "File:Alnus glutinosa 011.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Alnus_glutinosa_011.jpg/960px-Alnus_glutinosa_011.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Alnus_glutinosa_011.jpg",
+      "licens": "CC BY 2.5",
+      "licensUrl": "https://creativecommons.org/licenses/by/2.5",
+      "fotograf": "Willow",
+      "bredde": 2592,
+      "hoejde": 1944
+     }
     ]
    }
   },
@@ -3206,7 +3262,6 @@
       "hoejde": 4608
      }
     ],
-    "blade": [],
     "frugt": [
      {
       "titel": "File:Salix alba 008.jpg",
@@ -3342,7 +3397,6 @@
       "hoejde": 3648
      }
     ],
-    "blade": [],
     "frugt": [
      {
       "titel": "File:Salix caprea catkins, along the Scheldt at sunset, Wetteren, 2026.jpg",
@@ -3630,10 +3684,134 @@
    "type": "loev",
    "frugt": "Bær",
    "billeder": {
-    "bark": [],
-    "blade": [],
-    "frugt": [],
-    "trae": []
+    "bark": [
+     {
+      "titel": "File:Sorbus intermedia 02.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Sorbus_intermedia_02.jpg/960px-Sorbus_intermedia_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_02.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Afanasovich",
+      "bredde": 2268,
+      "hoejde": 4032
+     }
+    ],
+    "blade": [
+     {
+      "titel": "File:Sorbus intermedia leaf.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Sorbus_intermedia_leaf.jpg/960px-Sorbus_intermedia_leaf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_leaf.jpg",
+      "licens": "CC BY-SA 3.0 rs",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0/rs/deed.en",
+      "fotograf": "Gmihail at Serbian Wikipedia",
+      "bredde": 2832,
+      "hoejde": 2832
+     },
+     {
+      "titel": "File:Sorbus intermedia 03.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Sorbus_intermedia_03.jpg/960px-Sorbus_intermedia_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_03.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Afanasovich",
+      "bredde": 2268,
+      "hoejde": 4032
+     },
+     {
+      "titel": "File:Sorbus intermedia.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Sorbus_intermedia.JPG/960px-Sorbus_intermedia.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia.JPG",
+      "licens": "Public domain",
+      "licensUrl": null,
+      "fotograf": "Rosser1954 Roger Griffith",
+      "bredde": 2288,
+      "hoejde": 1712
+     }
+    ],
+    "trae": [
+     {
+      "titel": "File:Sorbus intermedia Peterburg.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Sorbus_intermedia_Peterburg.jpg/960px-Sorbus_intermedia_Peterburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_Peterburg.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Afanasovich",
+      "bredde": 3024,
+      "hoejde": 4032
+     },
+     {
+      "titel": "File:Sorbus intermedia 01.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Sorbus_intermedia_01.jpg/960px-Sorbus_intermedia_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_01.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Afanasovich",
+      "bredde": 2268,
+      "hoejde": 4032
+     },
+     {
+      "titel": "File:Two Sorbus intermedia Peterburg.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Two_Sorbus_intermedia_Peterburg.jpg/960px-Two_Sorbus_intermedia_Peterburg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Two_Sorbus_intermedia_Peterburg.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Afanasovich",
+      "bredde": 4032,
+      "hoejde": 3024
+     },
+     {
+      "titel": "File:Sorbus intermedia - Botanical Garden in Kaisaniemi, Helsinki - DSC03457.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Sorbus_intermedia_-_Botanical_Garden_in_Kaisaniemi%2C_Helsinki_-_DSC03457.JPG/960px-Sorbus_intermedia_-_Botanical_Garden_in_Kaisaniemi%2C_Helsinki_-_DSC03457.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_-_Botanical_Garden_in_Kaisaniemi,_Helsinki_-_DSC03457.JPG",
+      "licens": "CC0",
+      "licensUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "fotograf": "Daderot",
+      "bredde": 3240,
+      "hoejde": 4320
+     }
+    ],
+    "frugt": [
+     {
+      "titel": "File:Sorbus intermedia fruit Weinsberg 20070825 1.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Sorbus_intermedia_fruit_Weinsberg_20070825_1.jpg/960px-Sorbus_intermedia_fruit_Weinsberg_20070825_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_fruit_Weinsberg_20070825_1.jpg",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fotograf": "Rosenzweig",
+      "bredde": 3456,
+      "hoejde": 2304
+     },
+     {
+      "titel": "File:Sorbus intermedia fruit Weinsberg 20070825 2.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sorbus_intermedia_fruit_Weinsberg_20070825_2.jpg/960px-Sorbus_intermedia_fruit_Weinsberg_20070825_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_fruit_Weinsberg_20070825_2.jpg",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fotograf": "Rosenzweig",
+      "bredde": 3456,
+      "hoejde": 2304
+     },
+     {
+      "titel": "File:Sorbus intermedia fruit Weinsberg 20070825 3.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Sorbus_intermedia_fruit_Weinsberg_20070825_3.jpg/960px-Sorbus_intermedia_fruit_Weinsberg_20070825_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_fruit_Weinsberg_20070825_3.jpg",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fotograf": "Rosenzweig",
+      "bredde": 3456,
+      "hoejde": 2304
+     },
+     {
+      "titel": "File:Sorbus intermedia niedojzale owoce.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Sorbus_intermedia_niedojzale_owoce.JPG/960px-Sorbus_intermedia_niedojzale_owoce.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Sorbus_intermedia_niedojzale_owoce.JPG",
+      "licens": "CC BY-SA 3.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+      "fotograf": "Kajetan Dzierżanowski",
+      "bredde": 1280,
+      "hoejde": 960
+     }
+    ]
    }
   },
   {
@@ -3874,6 +4052,18 @@
       "fotograf": "Eiku",
       "bredde": 1427,
       "hoejde": 1089
+     }
+    ],
+    "trae": [
+     {
+      "titel": "File:Bird cherry tree 1.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Bird_cherry_tree_1.jpg/960px-Bird_cherry_tree_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Bird_cherry_tree_1.jpg",
+      "licens": "Public domain",
+      "licensUrl": null,
+      "fotograf": "Игоревич",
+      "bredde": 1600,
+      "hoejde": 1200
      }
     ]
    }
@@ -4674,6 +4864,28 @@
       "fotograf": "Jamain",
       "bredde": 3940,
       "hoejde": 2820
+     }
+    ],
+    "trae": [
+     {
+      "titel": "File:Oldest Walnut tree in the world. Khotan, Xinjiang.jpg",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Oldest_Walnut_tree_in_the_world._Khotan%2C_Xinjiang.jpg/960px-Oldest_Walnut_tree_in_the_world._Khotan%2C_Xinjiang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Oldest_Walnut_tree_in_the_world._Khotan,_Xinjiang.jpg",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "John Hill",
+      "bredde": 1024,
+      "hoejde": 768
+     },
+     {
+      "titel": "File:Walnut-tree 20041012 2599.JPG",
+      "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Walnut-tree_20041012_2599.JPG/960px-Walnut-tree_20041012_2599.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "side": "https://commons.wikimedia.org/wiki/File:Walnut-tree_20041012_2599.JPG",
+      "licens": "CC BY-SA 4.0",
+      "licensUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+      "fotograf": "Georg Slickers",
+      "bredde": 1077,
+      "hoejde": 1533
      }
     ]
    }

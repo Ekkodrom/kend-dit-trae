@@ -57,6 +57,8 @@ const DAARLIG = new RegExp(
     "\\bfog\\b", "doomed", "stumps?\\b", "fallen (tree|trunk|lime)", "being removed", "socks", "dead tree", "arbre mort",
     "christmas", "weihnacht", "jelka", "\\bgin\\b", "tonic", "\\bbell\\b", "remains", "mistletoe in", "automobile",
     "vandalised", "discovery room", "halepensis", "walking tree",
+    "tree rings", "jahresringe", "topiary", "info ?board", "gartenlaube", "abattage", "ermine moth", "plastic tree",
+    "\\bnet\\d*\\b", "tree number",
   ].join("|"),
   "i"
 );
@@ -74,7 +76,14 @@ async function api(params) {
 async function soeg(latin, term) {
   const j = await api({ action: "query", list: "search", srnamespace: "6", srlimit: "30", srsearch: `deepcat:"${latin}" ${term} filetype:bitmap` });
   await sleep(800);
-  return (j.query?.search ?? []).map((r) => r.title);
+  let titler = (j.query?.search ?? []).map((r) => r.title);
+  // Reserve: nogle arter har en Commons-kategori, deepcat ikke finder. Søg så på navnet i filnavnet.
+  if (!titler.length) {
+    const r = await api({ action: "query", list: "search", srnamespace: "6", srlimit: "30", srsearch: `intitle:"${latin}" ${term} filetype:bitmap` });
+    await sleep(800);
+    titler = (r.query?.search ?? []).map((x) => x.title);
+  }
+  return titler;
 }
 
 const OK_LICENSE = /^(public domain|pd|cc0( 1\.0)?|cc by(-sa)?( [0-9.]+)?( [a-z]{2})?)$/i;
@@ -114,8 +123,8 @@ if (!process.argv.includes("--forfra")) {
       // Fjern udelukkede/dårlige billeder; en del der bliver tom, hentes igen
       for (const [del, liste] of Object.entries(a.billeder)) {
         const ok = liste.filter((b) => !udeluk.has(b.titel) && !DAARLIG.test(b.titel));
-        if (ok.length || !liste.length) a.billeder[del] = ok;
-        else delete a.billeder[del];
+        if (ok.length) a.billeder[del] = ok;
+        else delete a.billeder[del]; // tom del (fra starten eller efter rensning) søges igen
       }
       gemte.set(a.latin, a);
     }
