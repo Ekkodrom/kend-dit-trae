@@ -1,7 +1,7 @@
 // Laver kontaktark.html med alle billeder (til manuel kvalitetskontrol).
 // Forkerte billeder tilføjes til data/udeluk.json (filtitel, fx "File:Xxx.jpg"),
 // hvorefter scripts/hent-billeder.mjs køres igen.
-// Kør: node scripts/kontaktark.mjs [fra] [til]   (artsnumre, valgfrit)
+// Kør: node scripts/kontaktark.mjs [fra] [til] [dele]   (artsnumre og fx "trae,bark" – valgfrit)
 
 import { readFile, writeFile } from "node:fs/promises";
 
@@ -11,7 +11,7 @@ const til = Number(process.argv[3] ?? arter.length);
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]);
 
 const raekker = arter.slice(fra, til).map((a, i) => {
-  const celler = ["trae", "bark", "blade", "frugt"]
+  const celler = (process.argv[4]?.split(",") ?? ["trae", "bark", "blade", "frugt"])
     .map((del) => `<td><b>${del}</b><div class="r">${(a.billeder[del] ?? [])
       .map((b, j) => `<figure><img src="${esc(b.url)}"><figcaption>${del[0]}${j + 1}: ${esc(b.titel.replace("File:", "").slice(0, 38))}</figcaption></figure>`)
       .join("")}</div></td>`)

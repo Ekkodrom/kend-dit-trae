@@ -2,7 +2,7 @@
 
 Billedquiz der hjælper dig med at lære de danske træer at kende – på barken, bladene og frugterne.
 
-- 53 træarter: Danmarks hjemmehørende træer og de almindelige skov-, park- og læhegnstræer
+- 66 træarter: Danmarks hjemmehørende træer og de almindelige skov-, park- og læhegnstræer
 - Kategorier: De nemme, De svære, Dem alle – og filter for bark, blade eller frugt
 - Tilfældig rækkefølge, kører af sig selv, med tæller "X ud af Y rigtige"
 - Mobilvenlig, statisk side (HTML/CSS/JS uden build)

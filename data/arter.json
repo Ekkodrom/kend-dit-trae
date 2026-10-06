@@ -53,6 +53,19 @@
     { "dansk": "Klitfyr", "latin": "Pinus contorta", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
     { "dansk": "Europæisk lærk", "latin": "Larix decidua", "svaerhed": "let", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
     { "dansk": "Japansk lærk", "latin": "Larix kaempferi", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
-    { "dansk": "Kæmpe-thuja", "latin": "Thuja plicata", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] }
+    { "dansk": "Kæmpe-thuja", "latin": "Thuja plicata", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Almindelig hvidtjørn", "latin": "Crataegus laevigata", "svaerhed": "svaer", "type": "loev", "frugt": "Bær", "frugtSoeg": ["fruit", "berries", "haws"] },
+    { "dansk": "Tarmvrid-røn", "latin": "Sorbus torminalis", "svaerhed": "svaer", "type": "loev", "frugt": "Bær", "frugtSoeg": ["fruit", "berries"] },
+    { "dansk": "Skovpære", "latin": "Pyrus pyraster", "svaerhed": "svaer", "type": "loev", "frugt": "Pærer", "frugtSoeg": ["fruit", "pears"] },
+    { "dansk": "Surkirsebær", "latin": "Prunus cerasus", "svaerhed": "svaer", "type": "loev", "frugt": "Kirsebær", "frugtSoeg": ["fruit", "cherries"] },
+    { "dansk": "Sort poppel", "latin": "Populus nigra", "svaerhed": "svaer", "type": "loev", "frugt": "Rakler", "frugtSoeg": ["catkins", "fruit"] },
+    { "dansk": "Gråpoppel", "latin": "Populus × canescens", "svaerhed": "svaer", "type": "loev", "frugt": "Rakler", "frugtSoeg": ["catkins", "fruit"] },
+    { "dansk": "Hvidgran", "latin": "Picea glauca", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Serbisk gran", "latin": "Picea omorika", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Blågran", "latin": "Picea pungens", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Kæmpegran", "latin": "Abies grandis", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Nobilisgran", "latin": "Abies procera", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Weymouthfyr", "latin": "Pinus strobus", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] },
+    { "dansk": "Ædelcypres", "latin": "Chamaecyparis lawsoniana", "svaerhed": "svaer", "type": "naal", "frugt": "Kogler", "frugtSoeg": ["cones", "cone"] }
   ]
 }

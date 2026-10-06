@@ -39,7 +39,27 @@ const DELE = {
 };
 
 // Frasorter tegninger, kort, herbarier, mikroskopi, havesorter m.m.
-const DAARLIG = /illustrat|köhler|kohler|thom[eé]|drawing|zeichnung|plate|tafel|herbar|specimen|map|distribution|verbreitung|range|\.svg|\.tiff?$|stamp|briefmarke|logo|diagram|microscop|mikroskop|section|schnitt|purpurea|atropurpurea|variegat|aurea|laciniata|fastigiata|'[^']+'|‘[^’]+’|"[^"]+"|bonsai|wood ?(sample|texture)|holz|lumber|furniture|xylotheque|epiderm|leaf print|canoe|roasted|geröstet|mosaic|collage|knop|bud|knospe|aerial root|gall|galle|seedling|keimling|sapling/i;
+// \b bruges, hvor et kort ord ellers ville ramme andre ord (fx "map" i "maple", "range" i "orange").
+const DAARLIG = new RegExp(
+  [
+    // tegninger, tryk, kort, herbarier, mikroskopi
+    "illustrat", "köhler", "kohler", "thom[eé]", "drawing", "zeichnung", "\\bplate\\b", "\\btafel\\b", "herbar", "specimen",
+    "\\bmaps?\\b", "distribution", "verbreitung", "\\brange\\b", "\\.svg$", "\\.tiff?$", "\\bstamp", "briefmarke", "\\blogo",
+    "diagram", "microscop", "mikroskop", "\\bsection\\b", "schnitt", "epiderm", "leaf print", "mosaic", "collage",
+    "painting", "gemälde", "madonna", "guide to",
+    // havesorter
+    "purpurea", "atropurpurea", "variegat", "\\baurea\\b", "laciniata", "fastigiata", "crimson", "'[^']+'", "‘[^’]+’", "\"[^\"]+\"",
+    // forkerte motiver: træ som materiale, knopper, galler, kimplanter
+    "bonsai", "wood ?(sample|texture)", "\\bholz", "lumber", "furniture", "xylotheque", "canoe", "roasted", "geröstet",
+    "\\bknop", "\\bbuds?\\b", "knospe", "aerial root", "\\bgall(s|e|en)?\\b", "seedling", "keimling", "sapling",
+    // døde/fældede træer, skilte, mennesker og andet der fylder billedet
+    "memorial", "\\bsigns?\\b", "\\bskilt", "plaque", "\\bmoon", "bicycle", "cykel", "\\bpeople\\b", "destroyed", "lightning",
+    "\\bfog\\b", "doomed", "stumps?\\b", "fallen (tree|trunk|lime)", "being removed", "socks", "dead tree", "arbre mort",
+    "christmas", "weihnacht", "jelka", "\\bgin\\b", "tonic", "\\bbell\\b", "remains", "mistletoe in", "automobile",
+    "vandalised", "discovery room", "halepensis", "walking tree",
+  ].join("|"),
+  "i"
+);
 
 async function api(params) {
   const url = `${API}?${new URLSearchParams({ format: "json", formatversion: "2", ...params })}`;
